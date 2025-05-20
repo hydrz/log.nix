@@ -1,0 +1,27 @@
+# Nix build outputs
+result
+result-*
+
+# Editor configs
+.vscode
+.idea
+.direnv
+.DS_Store
+
+# Temp files
+tmp/
+*.tmp
+*.swp
+*~
+\#*\#
+.#*
+
+# Nix expression evaluation result
+*.drv
+
+# flake output
+.direnv/
+
+# nix-build output
+result
+result-*
