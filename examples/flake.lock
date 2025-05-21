@@ -2,11 +2,11 @@
   "nodes": {
     "lognix": {
       "locked": {
-        "lastModified": 1747796162,
-        "narHash": "sha256-qU9wHTbYdEJepBBlbMl7PBIGb0unt+y0y7ZHPLA5sZA=",
+        "lastModified": 1747797226,
+        "narHash": "sha256-rQOp/y+/0PgQ/5VUhGcYk1TvXyHfs/oHgsKr6LbqRcs=",
         "owner": "hydrz",
         "repo": "log.nix",
-        "rev": "020f9458fd27bbe0ca80e422be336aa19c67c6fb",
+        "rev": "3e9f2c54b16c357d6b7ce35f8c824cebcf808464",
         "type": "github"
       },
       "original": {
