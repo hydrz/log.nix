@@ -1,0 +1,26 @@
+{
+  "nodes": {
+    "lognix": {
+      "locked": {
+        "lastModified": 1747796162,
+        "narHash": "sha256-qU9wHTbYdEJepBBlbMl7PBIGb0unt+y0y7ZHPLA5sZA=",
+        "owner": "hydrz",
+        "repo": "log.nix",
+        "rev": "020f9458fd27bbe0ca80e422be336aa19c67c6fb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hydrz",
+        "repo": "log.nix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "lognix": "lognix"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

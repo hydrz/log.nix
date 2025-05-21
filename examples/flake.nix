@@ -7,19 +7,9 @@
     lognix,
     ...
   }: {
-    # Basic examples to demonstrate logger usage
-    examples = {
-      # Basic usage examples
-      basic = import ./basic.nix {inherit lognix;};
-
-      # Advanced configuration examples
-      advanced = import ./advanced.nix {inherit lognix;};
-
-      # Module-specific logging examples
-      modules = import ./modules.nix {inherit lognix;};
-
-      # Format examples (text vs JSON)
-      formats = import ./formats.nix {inherit lognix;};
-    };
+    basic = import ./basic.nix {inherit lognix;};
+    advanced = import ./advanced.nix {inherit lognix;};
+    modules = import ./modules.nix {inherit lognix;};
+    formats = import ./formats.nix {inherit lognix;};
   };
 }

@@ -7,10 +7,10 @@ This directory contains examples demonstrating how to use the log.nix library fo
 To run these examples, you can use:
 
 ```bash
-nix eval -f flake.nix examples.basic
-nix eval -f flake.nix examples.advanced
-nix eval -f flake.nix examples.modules
-nix eval -f flake.nix examples.formats
+nix eval .#basic
+nix eval .#advanced
+nix eval .#modules
+nix eval .#formats
 ```
 
 ## Example Files
